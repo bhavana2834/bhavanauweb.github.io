@@ -1,0 +1,146 @@
+What is HTML and explain it?
+HTML stands for Hyper Text Markup Language. 
+HTML is the standard markup language for creating Web pages. 
+HTML describes the structure of a Web page. HTML consists of a series of elements.
+HTML elements tell the browser how to display the content.
+
+
+What is an attribute?
+HTML Attributes
+All HTML elements can have attributes
+Attributes provide additional information about elements
+Attributes are always specified in the start tag
+Attributes usually come in name/value pairs like: name="value".
+
+Write basic structure of html ?
+<!DOCTYPE html>
+<html>
+<head>
+<title> </title>
+</head>
+<body>
+<div> </div>
+ </body>
+</html>
+
+create img in html?
+<body> 
+<div> 
+<img src="image path" >
+</div>
+</body>
+
+How to create hyperlink in html?
+using anchor tag
+<a href="url"> link test </a>
+
+how to create / write syntax of table in html?
+<html>
+<head>
+<title> </title>
+</head>
+<body>
+<div>
+<table>
+<tr> <th> </th> </tr>
+<tr> <td> </td> </tr>
+</table>
+
+create a from with fields name, password,gender,city,dateofbrith in html ?
+<form>
+<div>
+<label> enter name </label>
+<input type="text" name="name" placeholder="Enter Name">
+</div>
+<div>
+<label> Enter Password </label>
+<input type="text" name="password" placeholder="Enter Password">
+</div>
+<div>
+<label> Enter Gender </label>
+<input 	type="radio" name="gender">
+</div>
+<div>
+<label> Select the city </label>
+<select name="City" >
+  <option> ##--Select--## </option>
+  <option> bangalore </option>
+  <option> bagalkot </option>
+</div>
+<div>
+<label for="Date of Birth"> </label>
+<input type="Date"> 
+</div>
+
+What is CSS?
+CSS stands for Cascading Style Sheets
+CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+CSS saves a lot of work. It can control the layout of multiple web pages all at once
+External stylesheets are stored in CSS files
+
+Css sysntax ?
+.h1{
+color: red;
+height : 200px;
+}
+
+What is External css?
+External CSS is a form of CSS which is used to add styling to multiple HTML pages at a time. 
+It helps to design the layout of many HTML web pages simultaneously. The external CSS is always saved with the . 
+css extension, and through this file, we can change the complete style of our HTML web page.
+
+Explain the different selector in css?
+grouping selector---to optimize duplicates
+id selector  -- #ref -- it is only for 1 and 1 priority
+element selector -- The element+element selector is used to select an element that is directly after another specific element.
+class selector -- <h1 class ="classselector"></h1> -- it takes the first priority --  we can applu to n number of line -- 2nd prority
+psedo selector -- Style an element when a user mouses over it
+
+explain css box model with exampple?
+It consists of: margins, borders, padding, and the actual content.
+Content - The content of the box, where text and images appear
+Padding - Clears an area around the content. The padding is transparent
+Border - A border that goes around the padding and content
+Margin - Clears an area outside the border. The margin is transparent
+ example 
+div {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+create the image and display names inside the image by placing name at corner of the image.
+inside body we should write this 
+ <div class="imageRelative">
+        <img class="a" , src="ipltropy.jpg"  >
+        <div class="tropy"> IPL Tropy </div>
+  And add css for this 
+.a{
+               position: relative;
+                
+               
+               right: 0;
+               bottom: 0;
+               height: 180px;
+               width: 180px;
+            }
+
+
+What is Javascript?
+JavaScript is the Programming Language for the Web.
+JavaScript can update and change both HTML and CSS.
+JavaScript can calculate, manipulate and validate data.
+
+Javascript syntax
+// How to create variables:
+var x;
+let y;
+
+// How to use variables:
+x = 5;
+y = 6;
+let z = x + y;
+
+Difference between let,var,const?
+var variables can be updated and re-declared within its scope;  let variables can be updated but not re-declared;     const variables can neither be updated nor re-declared
